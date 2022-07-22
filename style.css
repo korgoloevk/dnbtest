@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.wrapper {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(173, 228, 187);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+    box-shadow: 0px 0px 15px rgb(102, 102, 102);
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.question {
+    font-family: 'Russo One';
+    font-size: 16px;
+    margin: 55px;
+    text-align: center;
+}
+
+.counts {
+    /* background-color: rgb(255, 167, 167); */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.count {
+    width: 40px;
+    height: 100%;
+    background-color: rgb(120, 184, 165);
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Russo One';
+    user-select: none;
+}
+
+.count[data-visibility="none"] {
+    background-color: darkgrey;
+}
+
+ul li {
+    font-family: 'Cuprum';
+    list-style-type: none;
+    background-color: rgb(120, 184, 165);
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0 5px 0;
+    padding: 3px;
+    text-align: center;
+    pointer-events: visible;
+    user-select: none;
+}
+
+ul li:hover {
+    background-color: rgb(124, 185, 187);
+}
