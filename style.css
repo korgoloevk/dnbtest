@@ -34,13 +34,14 @@ body {
 
 .qst {
     font-family: 'Russo One';
-    font-size: 16px;
+    font-size: 1rem;
     /* margin: 55px; */
     text-align: center;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 10px;
 }
 
 /* .question {} */
