@@ -79,12 +79,15 @@ ul li {
     list-style-type: none;
     background-color: rgb(120, 184, 165);
     height: 40px;
-    line-height: 40px;
+    /* line-height: 40px; */
     margin: 5px 0 5px 0;
     padding: 3px;
     text-align: center;
     pointer-events: visible;
     user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul li:hover {
