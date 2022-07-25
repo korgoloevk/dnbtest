@@ -88,6 +88,7 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
 ul li:hover {
