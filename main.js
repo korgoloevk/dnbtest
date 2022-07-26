@@ -1,6 +1,6 @@
 let currentQuestion = 0;
 let totalCount = 0;
-const liElem = document.querySelectorAll("li");
+const liElem = document.querySelectorAll(".answers li");
 const question = document.querySelector(".question");
 const counts = document.querySelectorAll(".count");
 const questionLength = Math.max(...Object.keys(questions));
