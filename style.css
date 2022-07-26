@@ -170,6 +170,7 @@ body {
 
     .logo {
         position: relative;
+        left: 0px;
     }
 
     .header a {
